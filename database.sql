@@ -29,6 +29,7 @@ CREATE TABLE comment
 id INT NOT NULL AUTO_INCREMENT,
 PRIMARY KEY(id),
 user_id INT,
+user_username VARCHAR(50),
 media_id INT,
 comment VARCHAR(5000)
 )
