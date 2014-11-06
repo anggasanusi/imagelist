@@ -6,6 +6,6 @@ while($result = mysql_fetch_assoc($data)){
 $row[] = $result;
 }
 echo "{\"user\":".json_encode($row). ",";
-echo "\"media\":".json_encode($row). ",";
+echo "\"medias\":".json_encode($row). ",";
 echo "\"comment\":".json_encode($row). "}";
 ?>
