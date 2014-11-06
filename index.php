@@ -5,7 +5,7 @@ $data = mysql_query("SELECT title, urlgambar FROM media ORDER BY id ASC LIMIT 1,
 while($result = mysql_fetch_assoc($data)){
 $row[] = $result;
 }
-echo "{\"users\":".json_encode($row). ",";
+echo "{\"user\":".json_encode($row). ",";
 echo "\"media\":".json_encode($row). ",";
 echo "\"comment\":".json_encode($row). "}";
 ?>
