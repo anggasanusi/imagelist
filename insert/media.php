@@ -1,5 +1,5 @@
 <?php
-include "./config.php";
+include "../config.php";
 $userid = $_POST['userid'];
 $username = $_POST['username'];
 $picurl = $_POST['picurl'];

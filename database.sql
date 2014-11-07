@@ -21,7 +21,7 @@ timeup VARCHAR(100),
 description VARCHAR(5000), 
 gvote INT DEFAULT 0,
 bvote INT DEFAULT 0,
-view INT DEFAULT 0,
+view INT DEFAULT 0
 )
 
 CREATE TABLE comment

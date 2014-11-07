@@ -1,5 +1,5 @@
 <?php
-include "./config.php";
+include "../config.php";
 $username = $_POST['username'];
 $name = $_POST['name'];
 $socialid = $_POST['socialid'];
