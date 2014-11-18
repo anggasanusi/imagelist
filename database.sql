@@ -5,6 +5,7 @@ PRIMARY KEY(id),
 username VARCHAR(500),
 name VARCHAR(100),
 photo VARCHAR(500),
+phonenum VARCHAR(50),
 socialid VARCHAR(500)
 )
 
